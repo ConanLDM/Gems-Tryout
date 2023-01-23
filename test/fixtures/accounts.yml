@@ -5,6 +5,6 @@ one:
   status: verified
 
 two:
-  email: test1@test.com
+  email: test10@test.com
   password_hash: <%= BCrypt::Password.create("password", cost: BCrypt::Engine::MIN_COST) %>
   status: verified
